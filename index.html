@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Maintenance Mode | PCGamer.Social</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" />
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                font-family: "Open Sans", sans-serif;
+                background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            }
+
+            main {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                flex-grow: 1;
+                min-height: 600px;
+                background: #f8f8f8;
+                color: #291f15;
+                padding: 1rem;
+            }
+            main .icon {
+                width: 64px;
+                height: 64px;
+            }
+            main div {
+                margin: 1rem;
+            }
+            main h1 {
+                font-weight: 700;
+                font-size: 200%;
+            }
+            main h1 span,
+            main ul a {
+                color: transparent;
+                background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+                background-clip: text;
+                -webkit-background-clip: text;
+            }
+            main ul li {
+                margin-bottom: 0.4em;
+            }
+            main p {
+                font-weight: 600;
+            }
+
+            footer {
+                color: rgba(255, 255, 255, 0.5);
+            }
+            footer:hover {
+                color: rgba(255, 255, 255, 1);
+            }
+            footer p {
+                margin: 3rem;
+            }
+
+            svg {
+                fill: currentColor;
+            }
+
+            .flex-center {
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="flex-center">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M128 48v122.8h.2l-.2.2 85.3 85-85.3 85.2.2.2h-.2V464h256V341.4h-.2l.2-.2-85.3-85.2 85.3-85-.2-.2h.2V48H128zm213.3 303.9v71.5H170.7v-71.5l85.3-85.2 85.3 85.2zM256 245.4l-85.3-85.2V87.6h170.7v72.5L256 245.4z"
+                    />
+                </svg>
+            </div>
+            <div>
+                <h1><span>PCGamer.Social</span> is currently under maintenance.</h1>
+                <p>
+                    現在メンテナンス中です。アナウンスは以下で確認できます。
+                </p>
+                <ul>
+                    <li><a href="https://blog.pcgamer.social/">Blog PCGS</a></li>
+                    <li><a href="https://stellaria.network/@Eai/">@Eai@stellaria.network</a> 管理者の個人Mastodonアカウント（うるさい）</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="text-center">
+            <p>2019 PCGamer.Social</p>
+        </footer>
+    </body>
+</html>
